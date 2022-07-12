@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  color: white; }
+
+body {
+  background-color: black; }
+
+h1 {
+  font-size: 2.2em; }
+  @media (max-width: 992px) {
+    h1 {
+      font-size: 1.8em; } }
+  @media (max-width: 577px) {
+    h1 {
+      font-size: 1.4em; } }
+
+h2, h3 {
+  font-size: 1.7em; }
+  @media (max-width: 992px) {
+    h2, h3 {
+      font-size: 1.3em; } }
+  @media (max-width: 577px) {
+    h2, h3 {
+      font-size: 1em; } }
+
+h5 {
+  font-size: 0.9em; }
+  @media (max-width: 992px) {
+    h5 {
+      font-size: 0.8em; } }
+
+a {
+  text-decoration: none; }
+
+.textDorado {
+  color: wheat; }
+
+.textBlanco {
+  color: white; }
+
+.textNegro {
+  color: black; }
+
+.textGris {
+  color: #5c5c5c; }
+
+.bgNegro {
+  background-color: black; }
+
+.bgClaro {
+  background-color: rgba(225, 225, 225, 0.9); }
+
+.bgDorado {
+  background-color: #8e8472; }
+
+.pointer {
+  cursor: pointer; }
+
+nav {
+  background-color: rgba(0, 0, 0, 0.5); }
+  nav a img {
+    width: 50px; }
+  nav div ul li {
+    font-weight: 500; }
+    nav div ul li a {
+      font-size: 0.9em;
+      color: white; }
+      nav div ul li a:hover {
+        text-decoration: underline overline; }
+
+footer div div h5 {
+  font-weight: 300;
+  color: white; }
+
+footer div div .btnFooter {
+  font-size: 0.9em;
+  border-color: wheat;
+  color: white;
+  font-weight: 500; }
+  footer div div .btnFooter:hover {
+    background-color: #8e8472; }
+
+footer h5 {
+  color: #5c5c5c;
+  font-weight: 300; }
+  footer h5 strong {
+    color: #5c5c5c; }
+
+header .presentacion {
+  width: 100%;
+  background: white;
+  background: radial-gradient(circle, white 51%, rgba(34, 0, 33, 0.700718) 75%); }
+  header .presentacion h1 {
+    font-weight: 600;
+    border-bottom: solid 0.5px #260027; }
+  header .presentacion p {
+    font-weight: 400;
+    font-size: 1.2em; }
+    @media (max-width: 992px) {
+      header .presentacion p {
+        font-size: 1em; } }
+    @media (max-width: 577px) {
+      header .presentacion p {
+        font-size: 0.9em;
+        margin-left: 50px;
+        margin-right: 50px; } }
+
+main section div ul li {
+  font-size: 1em; }
+
+main section div p {
+  font-size: 1.3em; }
+  @media (max-width: 992px) {
+    main section div p {
+      font-size: 1em; } }
+  main section div p a:hover {
+    color: #fbecd1;
+    text-decoration: underline; }

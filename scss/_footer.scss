@@ -1,0 +1,28 @@
+footer{
+    div{
+        div{
+            h5{
+                font-weight: $pesoS;
+                color: $blanco;
+            }
+        }
+        div{
+            .btnFooter{
+                font-size: $textS;
+                border-color: $dorado;
+                color: $blanco;
+                font-weight: $pesoL;
+                &:hover{
+                    background-color: $bgDorado;
+                }
+            }
+        }
+    }
+    h5{
+        color: $gris;
+        font-weight: $pesoS;
+        strong{
+            color: $gris
+        }
+    }
+}

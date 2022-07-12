@@ -1,0 +1,79 @@
+//RESET
+*{
+    font-family: $fontPrincipal;
+    color: $blanco;
+}
+
+body{
+    background-color: $negro;
+}
+
+h1{
+    font-size: $textXl;
+    @media (max-width: 992px){
+        font-size: 1.8em;
+    }
+    @media (max-width: 577px){
+        font-size: 1.4em;
+    }
+}
+
+h2, h3{
+    font-size: $textL;
+    @media (max-width: 992px){
+        font-size: 1.3em;
+    }
+    @media (max-width: 577px){
+        font-size: $textM;
+    }
+}
+
+h5{
+    font-size: $textS;
+    @media (max-width: 992px){
+        font-size: 0.8em;
+    }
+}
+
+a{
+    text-decoration: $decorationNone;
+}
+//
+
+
+
+//CLASES
+.textDorado{
+    color: $dorado;
+}
+
+.textBlanco{
+    color: $blanco;
+}
+
+.textNegro{
+    color: $negro;
+}
+
+.textGris{
+    color: $gris;
+}
+
+
+.bgNegro{
+    background-color: $negro;
+}
+
+.bgClaro{
+    background-color: $bgClaro;
+}
+
+.bgDorado{
+    background-color: $bgDorado;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+//

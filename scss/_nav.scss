@@ -1,0 +1,22 @@
+nav{
+    background-color: $bgNav;
+    a{
+        img{
+            width: 50px;
+        }
+    }
+    div{
+        ul{
+            li{
+                font-weight: $pesoL;
+                a{
+                    font-size: $textS;
+                    color: $blanco;
+                    &:hover{
+                        text-decoration: $decorationSubrayado $decorationSobrerayado;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+header{
+    .presentacion{
+        width: 100%;
+        background: rgb(255,255,255);
+        background: radial-gradient(circle, rgba(255,255,255,1) 51%, rgba(34,0,33,0.700717787114846) 75%);
+        h1{
+            font-weight: $pesoXl;
+            border-bottom: solid 0.5px rgb(38, 0, 39);
+        }
+        p{
+            font-weight: $pesoM;
+            font-size: 1.2em;
+            @media (max-width: 992px){
+                font-size: $textM;
+            }
+            @media (max-width: 577px){
+                font-size: $textS;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+        }
+    }
+}
+
+
+main{
+    section{
+        div{
+            ul{
+                li{
+                    font-size: $textM;
+                }
+            }
+            p{
+                font-size: 1.3em;
+                @media (max-width: 992px){
+                    font-size: $textM;
+                }
+                a{
+                    &:hover{
+                        color:  rgb(251, 236, 209);
+                        text-decoration: $decorationSubrayado;
+                    }
+                }
+            }
+        }
+    }
+}
